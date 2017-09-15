@@ -16,6 +16,7 @@ public class MainActivity extends ParentAppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+
         mPermission = new Permission();
         mPermission.checkLocationPermission(mActivity, new Permission.OnPermissionRequest() {
             @Override
