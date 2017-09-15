@@ -8,7 +8,7 @@ import android.widget.Toast;
 import com.kulsdroid.kulsdroid.application.MyApplication;
 
 /**
- * Created by sit27 on 9/15/2017.
+ * Created by KulsDroid on 9/15/2017.
  */
 
 public class CommonUtils {

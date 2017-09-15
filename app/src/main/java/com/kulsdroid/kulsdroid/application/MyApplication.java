@@ -4,7 +4,7 @@ import android.app.Application;
 import android.content.Context;
 
 /**
- * Created by sit27 on 9/15/2017.
+ * Created by KulsDroid on 9/15/2017.
  */
 
 public class MyApplication extends Application {

@@ -14,7 +14,7 @@ import com.kulsdroid.kulsdroid.utils.CommonUtils;
 import java.io.File;
 
 /**
- * Created by sit27 on 9/14/2017.
+ * Created by KulsDroid on 9/14/2017.
  */
 
 public class DownloadFileUtility {
