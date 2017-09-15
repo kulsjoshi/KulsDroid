@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">KulsDroid</string>
+
+    //Validation
+    <string name="internetNotAvailable">Internet connection is not available. Please try again.</string>
+    <string name="failureMessage">Oops!! Something went wrong</string>
+
+    //Informational message
+    <string name="downloading">Downloading...</string>
+    <string name="downloadSuccess">Downloaded</string>
+    <string name="downloadFailure">Download failed</string>
+    <string name="downloadStarted">Download Started</string>
+    <string name="downloadCompleted">Download Completed</string>
+    <string name="downloadInProgress">Download in progress</string>
+    <string name="uploading">Uploading...</string>
+    <string name="uploadSuccess">Uploaded</string>
+    <string name="uploadFailure">Upload failed</string>
+    <string name="uploadStarted">Upload Started</string>
+    <string name="uploadCompleted">Upload Completed</string>
+    <string name="uploadInProgress">Uploading in progress</string>
+
+</resources>
