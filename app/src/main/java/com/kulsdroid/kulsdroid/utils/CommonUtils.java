@@ -1,11 +1,16 @@
 package com.kulsdroid.kulsdroid.utils;
 
 import android.content.Context;
+import android.graphics.Bitmap;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
+import android.provider.MediaStore;
 import android.widget.Toast;
 
 import com.kulsdroid.kulsdroid.application.MyApplication;
+
+import java.io.IOException;
 
 /**
  * Created by KulsDroid on 9/15/2017.
@@ -78,5 +83,21 @@ public class CommonUtils {
         if (!message.isEmpty()) {
             Toast.makeText(MyApplication.getContext(), message, Toast.LENGTH_SHORT).show();
         }
+    }
+
+    /**
+     * It will return bitmap from your Uri
+     * @param uri
+     * @return
+     * @throws IOException
+     */
+    public static Bitmap getBitmapFromUri(Uri uri) throws IOException {
+        Bitmap mBitmap = null;
+
+        if(uri!=null){
+            mBitmap = MediaStore.Images.Media.getBitmap(
+                    MyApplication.getContext().getContentResolver(), uri);
+        }
+        return mBitmap;
     }
 }
